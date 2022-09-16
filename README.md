@@ -1,5 +1,5 @@
 # HashMash
-For more information visit www.rebootuser.com
+
 
 ## Version 0.2
 * Added support for more hashing algorithms and delimiters
