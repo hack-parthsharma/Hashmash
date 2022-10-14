@@ -1,7 +1,7 @@
 # HashMash
 
 
-## Version 0.2
+## Version 0.1
 * Added support for more hashing algorithms and delimiters
 * Now can select '--alg 11' to use all delimiters in a single attack
 
@@ -69,5 +69,6 @@ HashMash has been created to aid in generating various hashes from user supplied
 * As above but to millisecond percision (slow) and use & as a delimiter between supplied values:
 
 		python hashmash.py --match e23e4ae268f4ba432e74e625e6600e59 --file values.txt --delim 4 --st "2016-01-01 09:23:01" --et "2016-01-01 09:25:01" --milli
+
 
 * By default all hashes will be shown on screen - this does slow the script down so perhaps redirect output to a file, i.e. > out.txt
